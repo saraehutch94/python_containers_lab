@@ -47,3 +47,10 @@ for student, food in zip(students, foods):
   cohort.append(dictionary)
   
 print(cohort)
+
+# Exercise 7:
+
+awesome_students = [f'{student} is awesome!' for student in students]
+
+for student in awesome_students:
+  print(student)
