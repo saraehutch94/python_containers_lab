@@ -54,3 +54,10 @@ awesome_students = [f'{student} is awesome!' for student in students]
 
 for student in awesome_students:
   print(student)
+
+# Exercise 8:
+
+foods_a = [f'{food}' for food in foods if ("a" in food)]
+
+for food in foods_a:
+  print(food)
