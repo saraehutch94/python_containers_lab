@@ -22,3 +22,14 @@ for food in foods:
 
 # print last two foods from foods tuple
 print(foods[4:6])
+
+# Exercise 4:
+
+home_town = {
+  'city': 'Braintree',
+  'state': 'Massachusetts',
+  'population': 35744
+}
+
+print(f'I was born in {home_town["city"]}, {home_town["state"]}, - population of {home_town["population"]}.')
+
