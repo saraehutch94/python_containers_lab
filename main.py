@@ -42,8 +42,8 @@ for key, value in home_town.items():
 
 cohort = []
 
-for student in students:
-  dictionary = {'student': student}
+for student, food in zip(students, foods):
+  dictionary = {'student': student, 'fav_food': food}
   cohort.append(dictionary)
   
 print(cohort)
