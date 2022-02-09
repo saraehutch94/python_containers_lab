@@ -33,3 +33,9 @@ home_town = {
 
 print(f'I was born in {home_town["city"]}, {home_town["state"]}, - population of {home_town["population"]}.')
 
+# Exercise 5:
+
+for key, value in home_town.items():
+  print(f'{key} = {value}')
+
+  
