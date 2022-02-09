@@ -17,3 +17,8 @@ foods = ('pizza', 'pasta', 'tostones', 'empanadas', 'gelato', 'sorbet')
 # for loop --> iterate over foods tuple
 for food in foods:
   print(f'{food} is a good foods')
+
+# Exercise 3:
+
+# print last two foods from foods tuple
+print(foods[4:6])
