@@ -38,4 +38,12 @@ print(f'I was born in {home_town["city"]}, {home_town["state"]}, - population of
 for key, value in home_town.items():
   print(f'{key} = {value}')
 
+# Exercise 6:
+
+cohort = []
+
+for student in students:
+  dictionary = {'student': student}
+  cohort.append(dictionary)
   
+print(cohort)
