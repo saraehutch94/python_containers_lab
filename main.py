@@ -20,8 +20,11 @@ for food in foods:
 
 # Exercise 3:
 
-# print last two foods from foods tuple
-print(foods[4:6])
+# for loop --> print last two foods from foods tuple
+# print(foods[4:6])
+
+for food in foods[-2:]:
+  print(food)
 
 # Exercise 4:
 
